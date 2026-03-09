@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header.portfolio-header {
+  background: #111;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.portfolio-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header.portfolio-header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+header.portfolio-header ul li a:hover,
+header.portfolio-header ul li a.active {
+  color: #ffb703;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ffb703, #ff8800);
+  color: #111;
+}
+
+.photo-placeholder img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  margin-right: 40px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #111;
+}
+
+.skills, .projects {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skill-grid, .project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.skill-card, .project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover, .project-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  color: #ffb703;
+  margin-bottom: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+footer.portfolio-footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer.portfolio-footer .social-icons {
+  margin-top: 10px;
+}
+
+footer.portfolio-footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+footer.portfolio-footer .social-icons a:hover {
+  color: #ffb703;
+}
